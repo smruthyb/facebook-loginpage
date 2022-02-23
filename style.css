@@ -1,0 +1,110 @@
+.facebook{
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f2f6;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1000px;
+    height: 100%;
+    display: flex;
+}
+
+.facebook-section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0%;
+    
+}
+
+.form-section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+h1{
+    color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:55px;
+    font-weight: 900;
+}
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 25px;
+}
+
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 2px 20px grey;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+    margin-bottom: 15px;
+}
+
+input{
+    height: 35px;
+}
+
+#form-btn{
+    background-color: #2077f2;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+
+a{
+    font-style: normal;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    margin-top: 10px;
+    background-color: #42b630;
+    height: 50px;
+    border-radius: 5px;
+    width: 180px;
+    color: white;
+    border: none;
+    margin: auto;
+
+}
+
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+hr{
+    width: 100%;
+}
+.fblogo{
+    width: 300px;
+
+}
